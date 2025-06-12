@@ -1,0 +1,48 @@
+# --- Python / Flask ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+instance/
+*.db
+*.sqlite3
+
+# --- OS & Editor Junk ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# --- Virtual Environments ---
+client/venv/
+server/venv/
+
+# # --- React ---
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*

@@ -1,4 +1,8 @@
 flask
 flask-cors
+flask-sqlalchemy
+flask-bcrypt
+flask-login
 python-dotenv
 google-generativeai
+google-genai

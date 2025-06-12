@@ -10,17 +10,17 @@ It uses Google's Gemini API for generating motivational and informative response
 - pip (Python package installer)
 
 ### React Frontend
-- Node.js and npm
+- Node.js and npm `sudo apt install nodejs npm`
 
 ---
 
 ## Setup Instructions
 
 ### 1. Clone the Repository
-git clone https://github.com/your-username/ai-bodybuilding-chatbot.git
-cd ai-bodybuilding-chatbot
+`git clone https://github.com/skosanke1/fitness_ai`
+`cd fitness_ai`
 
-## Backend Setup (Flask + Gemini AI)
+## 2. Backend Setup (Flask + Gemini AI)
 `cd server`<br>
 ### First ensure that .env file has been setup by pasting in your Gemini API key.
 Windows Setup: <br>
@@ -37,7 +37,7 @@ Ubuntu Setup:<br>
 Run the app:<br>
 `python app.py`
 
-## Frontend Setup (React)
+## 3. Frontend Setup (React)
 `cd server`<br>
 Windows: 
 Ensure dependencies are added <br>
